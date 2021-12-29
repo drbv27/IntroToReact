@@ -1,17 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-//import App from './App';
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-/* ReactDOM.render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
-); */
+  document.getElementById("root")
+);
 
-const Li = ({ children, estado, raza, gordo, edad }) => {
+/* const Li = ({ children, estado, raza, gordo, edad }) => {
   console.log(raza, gordo, edad);
   return (
     <li>
@@ -28,7 +28,7 @@ const X = () => (
     <Li estado="perezoso">Guido</Li>
   </ul>
 );
-ReactDOM.render(<X />, document.getElementById("root"));
+ReactDOM.render(<X />, document.getElementById("root")); */
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
