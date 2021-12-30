@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
-import "./App.css";
+/* import "./App.css"; */
+import "./main.css";
 
 /* function App() {
   return <p>Orion Necio</p>;
@@ -21,16 +22,12 @@ const estilo = ({ bg = "#222" }) => ({
 });
 const Li = ({ children }) => {
   console.log(children);
-  return (
-    <li style={{ ...estilo2, ...estilo({ bg: "#333" }) }} className="clase-li">
-      {children}
-    </li>
-  );
+  return <li className="clase-li">{children}</li>;
 };
 const App = () => {
   const actitud = "Necio";
   return (
-    <ul style={estilo({ bg: "#750" })} className="miClaseCSS">
+    <ul className="miClaseCSS">
       <Li estado="necio">valor de li</Li>
     </ul>
   );
